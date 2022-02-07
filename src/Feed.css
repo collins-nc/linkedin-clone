@@ -1,0 +1,57 @@
+.feed{
+    /* flex: 0.6; */
+    margin: 0 20px;
+    width: 550px;
+
+}
+.feed__container{
+        background-color: white;
+    padding: 10px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.feed__top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.feed__inputdiv{
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 30px;
+    padding: 10px;
+    color: gray;
+    padding-left: 15px;
+    margin-left: 5px;
+    transition: 0.2s;
+    cursor: pointer;
+
+}
+.feed__inputdiv:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.feed__inputOptions{
+    display: flex;
+    justify-content: space-evenly;
+}
+hr{
+    width: 80%;
+    height: 0;
+    border-width:1px;
+    border-color: lightgray;
+}
+#feed__sort{
+      color: gray;
+  font-size: 12px;
+  margin-left: 8px;
+}
+#feed__recent{
+    color: black;
+}
+.feed__line{
+    display: flex;
+    align-items: center;
+}
