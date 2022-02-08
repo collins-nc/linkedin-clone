@@ -1,22 +1,20 @@
 import React from 'react';
-import './App.css';
-import Header from './Header';
-import Sidebar from './Sidebar';
-import Feed from './Feed';
+import {BrowserRouter as Router,Routes,Route} from "react-router-dom";
+import Register from './Register';
+import Main from './Main';
 
-
-function App() {
+const App = () => {
   return (
     <div className="app">
-      {/* Header */}
-      <Header/>
-      <div className='app__body'>
-      <Sidebar/>
-      <Feed/>
-      </div>
-
+      <Router>
+        <Routes>
+          <Route exact path="/" element={<Main />} />
+          <Route exact path="/register" element={<Register />} />
+        </Routes>
+      </Router>
     </div>
   );
 }
+
 
 export default App;

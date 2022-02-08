@@ -3,6 +3,8 @@
   border-radius: 10px;
   text-align: center;
   height: fit-content;
+    position: sticky;
+  top: -285px;
 }
 
 .sidebar__top {
@@ -45,6 +47,7 @@
   font-size: 13px;
   font-weight: 400;
   text-align: start;
+  cursor: pointer;
 }
 #sidebar__black{
  color: black;
@@ -79,14 +82,14 @@
 
 
 .sidebar__bottom {
-  position: sticky;
-  top: 80px;
+
   text-align: left;
   padding: 10px;
   border: 1px solid lightgray;
   background-color: white;
   border-radius: 10px;
   margin-top: 10px;
+  
 }
 .sidebar__bottom>p{
     font-size: 13px;

@@ -2,9 +2,12 @@ import React from "react";
 import "./Sidebar.css";
 import bg from "./bcg.jpg";
 import "boxicons";
+import { useSelector } from "react-redux";
+import { selectUser } from "./features/userSlice";
 
 
 const Sidebar = () => {
+  const user = useSelector(selectUser);
 
     const recentItem = (topic) =>(
         <div className="sidebar__recentItem">
@@ -25,8 +28,8 @@ const Sidebar = () => {
           type="solid"
           name="user-circle"
         ></box-icon>
-        <h2>Noko Moeketsi</h2>
-        <h4>noko.nc@gmail.com</h4>
+        <h2>{user.email}</h2>
+        <h4>Ready to work member of the move!!!</h4>
       </div>
       <div className="sidebar__starts">
         <div className="sidebar__start">

@@ -9,7 +9,7 @@
     padding: 10px;
     padding-bottom: 20px;
     border-radius: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 .feed__top{
     display: flex;
@@ -47,6 +47,7 @@ hr{
       color: gray;
   font-size: 12px;
   margin-left: 8px;
+  cursor: pointer;
 }
 #feed__recent{
     color: black;
@@ -54,4 +55,10 @@ hr{
 .feed__line{
     display: flex;
     align-items: center;
+}
+
+.feed__creat-post{
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.05);
+
 }
