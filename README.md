@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
 
-#firebase.js replace the configs with yous
+#firebase.js replace the configs with yours
 
 #view ap....
 ##https://react-linkedin-clone-nc.herokuapp.com/
