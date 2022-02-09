@@ -1,7 +1,6 @@
 import React from 'react';
 import {BrowserRouter as Router,Routes,Route} from "react-router-dom";
-import Register from './Register';
-import Main from './Main';
+import {Register, Main} from "./container";
 
 const App = () => {
   return (
