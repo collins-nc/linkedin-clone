@@ -9,12 +9,18 @@ import {
 } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDROBlC_gd9al8RBnHSQ6PqqnmhgLwOLsg",
-  authDomain: "linkedin-clone-76f1f.firebaseapp.com",
-  projectId: "linkedin-clone-76f1f",
-  storageBucket: "linkedin-clone-76f1f.appspot.com",
-  messagingSenderId: "876129266810",
-  appId: "1:876129266810:web:39b9e7d0f0ad97be161fc3",
+  apiKey: "AIzaSyB7hS1sUgAUPNW1REWgRvuYbLq8D_6-Its",
+
+  authDomain: "clone-a4070.firebaseapp.com",
+
+  projectId: "clone-a4070",
+
+  storageBucket: "clone-a4070.appspot.com",
+
+  messagingSenderId: "207882890538",
+
+  appId: "1:207882890538:web:72256f8295d0ec99e98253"
+
 };
 
 initializeApp(firebaseConfig);
