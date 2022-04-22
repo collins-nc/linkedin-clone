@@ -2,8 +2,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 #firebase.js replace the configs with yours
 
-#view ap....
-##https://react-linkedin-clone-nc.herokuapp.com/
+
 
 
 ## Available Scripts
